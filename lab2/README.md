@@ -2,8 +2,11 @@
 
 ## Answer 1
 
-![Lab2 Answer](lab2-answer1.png)
+![Lab2 Answer 1](lab2-answer1.png)
 
 ## Answer 2
 
 ## Answer 3
+
+![Lab2 Answer 3](lab2-answer3.png)
+Codes can be found in: [Lab2 Answer 3](/lab2/lab2_answer3_src/)
