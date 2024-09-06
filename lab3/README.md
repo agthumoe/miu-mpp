@@ -15,6 +15,8 @@ Codes can be found in: [Lab3 Problem 1](/lab3/prob1/)
 
 ## Problem 2
 
+Codes can be found in [Lab3 Problem 2](/lab3/prob2/)
+
 ## Problem 3
 
 Codes can be found in: [Lab3 Problem 3](/lab3/prob3/)
