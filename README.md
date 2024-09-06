@@ -9,3 +9,7 @@
 ## Lab 2
 
 [Lab 2](lab2/README.md)
+
+## Lab 3
+
+[Lab 3](lab3/README.md)
