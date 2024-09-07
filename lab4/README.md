@@ -13,3 +13,5 @@
 Source codes can be found in: [Lab4 Part C](/lab4/partC/)
 
 ## Part D
+
+![Lab4 Part D](/lab4/partD/lab4-part-D.png)
