@@ -10,4 +10,6 @@
 
 ## Part C
 
+Source codes can be found in: [Lab4 Part C](/lab4/partC/)
+
 ## Part D
