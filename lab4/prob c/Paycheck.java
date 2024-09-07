@@ -1,67 +1,39 @@
-import java.time.LocalDate;
-//immutable class
 public final class Paycheck {
-    private double grossPay;
-    private double fica;
-    private double state;
-    private double local;
-    private double medicare;
-    private double socialSecurity;
-    private double netPay;
-    String empID;
+    private final double grossPay;
+    private final double fica;
+    private final double state;
+    private final double local;
+    private final double medicare;
+    private final double socialSecurity;
 
-    public Paycheck(String empID, double grossPay, double fica, double state, double local, double medicare, double socialSecurity, double netPay) {
+
+    public Paycheck(double grossPay) {
         this.grossPay = grossPay;
-        this.fica = fica;
-        this.state = state;
-        this.local = local;
-        this.medicare = medicare;
-        this.socialSecurity = socialSecurity;
-        this.netPay = netPay;
-        this.empID = empID;
+        this.fica = 0.23;
+        this.state = 0.05;
+        this.local = 0.01;
+        this.medicare = 0.03;
+        this.socialSecurity = 0.075;
     }
 
-    public double getGrossPay() {
-        return grossPay;
-    }
-
-    public double getFica() {
-        return fica;
-    }
-
-    public double getState() {
-        return state;
-    }
-
-    public double getLocal() {
-        return local;
-    }
-
-    public double getMedicare() {
-        return medicare;
-    }
-
-    public double getSocialSecurity() {
-        return socialSecurity;
+    public void print() {
+        System.out.println("Paystub:\n" +
+                "Gross Pay: " + this.grossPay + "\n" +
+                "Fica: " + this.fica + "\n" +
+                "State: " + this.state + "\n" +
+                "Local: " + this.local + "\n" +
+                "Medicare: " + this.medicare + "\n" +
+                "Social Security: " + this.socialSecurity + "\n" +
+                "NET PAY: " + this.getNetPay() + "\n");
     }
 
     public double getNetPay() {
+        double netPay = this.grossPay;
+        netPay -= this.fica * this.grossPay;
+        netPay -= this.state * this.grossPay;
+        netPay -= this.local * this.grossPay;
+        netPay -= this.medicare * this.grossPay;
+        netPay -= this.socialSecurity * this.grossPay;
         return netPay;
     }
-
-
-    public String print() {
-        return "Employee ID= "+ empID+
-                "Paycheck{" +
-                "grossPay=" + grossPay +
-                ", fica=" + fica +
-                ", state=" + state +
-                ", local=" + local +
-                ", medicare=" + medicare +
-                ", socialSecurity=" + socialSecurity +
-                ", netPay=" + netPay +
-                '}';
-    }
-
-
 }
