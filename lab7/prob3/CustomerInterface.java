@@ -1,11 +1,11 @@
 public interface CustomerInterface {
 
-    String getCustomerName();
+  String getCustomerName();
 
-    int getLoyaltyPoints();
+  int getLoyaltyPoints();
 
-    default boolean isLoyaltyCustomer(int loyaltyPoints) {
+  default boolean isLoyaltyCustomer(int loyaltyPoints) {
 
-        return loyaltyPoints > 50 ? true : false;
-    }
+    return loyaltyPoints > 50;
+  }
 }
