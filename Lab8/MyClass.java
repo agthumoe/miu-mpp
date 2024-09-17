@@ -1,5 +1,3 @@
-package lesson8.lecture.inclassdemo;
-
 public class MyClass {
 	int x;
 	String y;

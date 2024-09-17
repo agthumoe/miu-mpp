@@ -1,5 +1,3 @@
-package lesson8.lecture.inclassdemo;
-
 public class Product {
 	final String title;
 	final double price;
