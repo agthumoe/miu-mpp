@@ -17,3 +17,7 @@
 ## Lab 4
 
 [Lab 4](lab4/README.md)
+
+## Lab 7
+
+[Lab 7](lab7/README.md)
