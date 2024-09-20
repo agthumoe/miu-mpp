@@ -1,3 +1,7 @@
 .DS_Store
 *.class
 
+*.iml
+.idea/
+.idea/*
+out/
