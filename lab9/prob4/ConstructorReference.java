@@ -1,4 +1,4 @@
-package lesson9.lecture.streamandoperations;
+package lab9.prob4;
 
 import java.util.ArrayList;
 import java.util.Arrays;

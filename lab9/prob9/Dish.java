@@ -1,4 +1,5 @@
-package lesson9.labsolns.prob10;
+package lab9.prob9;
+
 import java.util.*;
 
 public class Dish {

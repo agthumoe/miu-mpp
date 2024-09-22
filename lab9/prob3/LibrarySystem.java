@@ -1,4 +1,4 @@
-package lesson9.lab9updatedsolutions.prob3;
+package lab9.prob3;
 
 import java.util.List;
 import java.util.stream.Collectors;

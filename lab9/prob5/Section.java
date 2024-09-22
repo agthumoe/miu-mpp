@@ -1,4 +1,4 @@
-package lesson9.labs.prob5;
+package lab9.prob5;
 
 import java.util.Arrays;
 import java.util.stream.Collectors;

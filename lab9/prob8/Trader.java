@@ -1,4 +1,5 @@
-package lesson9.labsolns.prob8;
+package lab9.prob8;
+
 public  class Trader{
 	
 	private String name;

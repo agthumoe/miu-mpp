@@ -1,4 +1,4 @@
-package lesson9.labs.prob7a;
+package lab9.prob7;
 
 import java.util.*;
 

@@ -1,3 +1,5 @@
+package lab9.prob1;
+
 import java.util.List;
 
 public class Problem1 {
