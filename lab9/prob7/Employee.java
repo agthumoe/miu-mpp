@@ -2,7 +2,6 @@ package lab9.prob7;
 
 public class Employee {
 	String firstName, lastName;
-	
 
 	int salary;
 	public Employee(String f, String l, int s) {
@@ -22,6 +21,10 @@ public class Employee {
 		sb.append("" + salary+">");
 		return sb.toString();
 		
+	}
+
+	public String getFullName() {
+		return firstName + " " + lastName;
 	}
 
 	public String getFirstName() {
