@@ -66,6 +66,7 @@ public class ConstructorReference {
 		// Query 1  : Print only Female candidates names
 		humanList.stream()
 				.filter(x -> "Female".equals(x.getGender()))
+				.map(Human::getName)
 				.forEach(System.out::println);
 
     	/* Query 2 : Create an object for the Type of Human class by choosing suitable Interface for the three  constructors using ClassName::new.
